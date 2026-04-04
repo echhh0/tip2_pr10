@@ -118,7 +118,7 @@ GET /health
 
 Пример ответа:
 
-![img.png](img.png)
+![img.png](docs/img.png)
 
 Назначение:
 
@@ -156,7 +156,7 @@ for i in {1..10}; do
 done
 ```
 
-![img_1.png](img_1.png)
+![img_1.png](docs/img_1.png)
 
 Наблюдается чередование — балансировка работает.
 
@@ -170,7 +170,7 @@ done
 docker compose stop tasks_1
 ```
 
-![img_2.png](img_2.png)
+![img_2.png](docs/img_2.png)
 
 Повторяем запросы:
 
@@ -185,7 +185,7 @@ done
 
 Результат:
 
-![img_3.png](img_3.png)
+![img_3.png](docs/img_3.png)
 
 Система продолжает работать — нагрузка полностью уходит на оставшийся инстанс.
 
